@@ -1,20 +1,17 @@
-import React from 'react'
-import Header from './container/Header/Header'
-import LandingPage from './container/LandingPage/landingPage'
+import React from "react";
+import LandingPage from "./container/LandingPage/landingPage";
 
 /**
-* @author
-* @function App
-**/
+ * @author
+ * @function App
+ **/
 
 const App = (props) => {
-  return(
+  return (
     <div>
-      <Header />
       <LandingPage />
     </div>
-   )
+  );
+};
 
- }
-
-export default App
+export default App;

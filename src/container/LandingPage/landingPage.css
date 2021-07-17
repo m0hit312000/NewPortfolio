@@ -1,0 +1,85 @@
+.landing_page {
+  height: 100vh;
+  width: 100%;
+  background: #16161a url("../../assests/img/wave.svg") no-repeat bottom;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+}
+
+.intro h1 {
+  color: #fffffe;
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.intro h1:nth-child(2) {
+  font-weight: 600;
+}
+
+.intro_role {
+  color: #2cb67d;
+}
+
+.social_intro i {
+  font-size: 55px;
+  padding-right: 20px;
+  color: #fffffe;
+}
+
+.intro_area {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.swipe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: flex-start;
+  margin-top: auto;
+  margin-bottom: 50px;
+  /* position: absolute;
+  bottom: 30px;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+.swipe h3 {
+  font-size: 24px;
+  color: #fffffe;
+  font-family: "Poppins", sans-serif;
+}
+
+.profile_pic {
+  height: 450px;
+  width: 450px;
+  border-radius: 50%;
+}
+
+.github_pic {
+  height: 50px;
+  width: 50px;
+  filter: invert(97%) sepia(22%) saturate(470%) hue-rotate(341deg)
+    brightness(119%) contrast(101%);
+  cursor: pointer;
+}
+
+.linkedin_pic {
+  height: 50px;
+  width: 50px;
+  filter: invert(97%) sepia(22%) saturate(470%) hue-rotate(341deg)
+    brightness(119%) contrast(101%);
+  margin: 10px 25px 0 0;
+  cursor: pointer;
+}
+
+.arrow_down {
+  height: 35px;
+  filter: invert(97%) sepia(22%) saturate(470%) hue-rotate(341deg)
+    brightness(119%) contrast(101%);
+}

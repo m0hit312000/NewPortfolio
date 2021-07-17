@@ -1,0 +1,23 @@
+.header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px;
+  background-color: transparent;
+}
+
+.nav_list {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  font-size: 22px;
+  font-family: "Righteous", cursive;
+  color: #fffffe;
+}
+
+.nav_list_item {
+  padding: 10px 20px;
+  cursor: pointer;
+}
