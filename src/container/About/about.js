@@ -13,7 +13,7 @@ import download from "../../assests/img/download.svg";
 
 const About = (props) => {
   return (
-    <div className="about_me">
+    <div ref={props.refProp} className="about_me">
       <div className="sec_heading">
         <h1>About Me</h1>
         <hr className="line-1" />

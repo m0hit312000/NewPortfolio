@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "../Header/Header";
 import profile_pic from "../../assests/img/_storage_emulated_0_Pictures_Cartoon_Photo_cartoon1626270305172.png";
 import github from "../../assests/img/github.svg";
 import linkedin from "../../assests/img/linkedin.svg";
@@ -13,10 +12,7 @@ import "./landingPage.css";
 
 const LandingPage = (props) => {
   return (
-    <div className="landing_page">
-      <div className="head_area">
-        <Header />
-      </div>
+    <div ref={props.refProp} className="landing_page">
       <div className="intro_area">
         <div className="intro">
           <h1>Hi!, I'm</h1>
