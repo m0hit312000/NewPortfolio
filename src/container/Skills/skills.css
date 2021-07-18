@@ -1,0 +1,77 @@
+.skills {
+  background-color: #242629;
+  height: 100vh;
+  width: 100%;
+  padding: 30px;
+}
+
+.skills_content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+  padding: 80px;
+  justify-items: center;
+}
+
+.skills_head {
+  font-family: "Righteous", cursive;
+  color: #fffffe;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.tech_skills {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.pro_skills {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.ranges {
+  margin-bottom: 20px;
+}
+
+.ranges p {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: #fffffe;
+}
+
+.range_slider {
+  width: 350px;
+  -webkit-appearance: none;
+  background-color: #000000;
+  color: #242629;
+  height: 6px;
+  border-radius: 20px;
+}
+
+.range_slider::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  width: 50%;
+  color: #04aa6d;
+}
+
+.range_slider::-webkit-slider-progress {
+  color: #04aa6d;
+}
+
+.range_slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #04aa6d;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.range_slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #04aa6d;
+  cursor: pointer;
+}

@@ -1,5 +1,7 @@
 import React from "react";
+import About from "./container/About/about";
 import LandingPage from "./container/LandingPage/landingPage";
+import Skills from "./container/Skills/skills";
 
 /**
  * @author
@@ -10,6 +12,8 @@ const App = (props) => {
   return (
     <div>
       <LandingPage />
+      <About />
+      <Skills />
     </div>
   );
 };
