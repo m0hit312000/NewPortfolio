@@ -1,6 +1,55 @@
 .contact {
-  background-color: #242629;
+  background-color: #16161a;
   height: 100vh;
   width: 100%;
   padding: 30px;
+}
+
+.contact_me {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.input_box {
+  margin-bottom: 20px;
+}
+
+.input_field {
+  height: 50px;
+  width: 350px;
+  padding: 10px;
+  color: #fffffe;
+  font-family: "Poppins", sans-serif;
+  background-color: #242629;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+
+.message_textarea {
+  height: 100px;
+}
+
+.message_btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #fffffe;
+  font-family: "Poppins", sans-serif;
+  color: #fffffe;
+  border: 1px solid #fffffe;
+  width: 200px;
+  height: 50px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.send_img {
+  height: 30px;
+  width: 30px;
+  filter: invert(97%) sepia(22%) saturate(470%) hue-rotate(341deg)
+    brightness(119%) contrast(101%);
 }

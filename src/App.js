@@ -4,6 +4,7 @@ import Contact from "./container/ContactMe/contact";
 import Header from "./container/Header/Header";
 import LandingPage from "./container/LandingPage/landingPage";
 import Resume from "./container/MyResume/resume";
+import Project from "./container/Projects/project";
 import Skills from "./container/Skills/skills";
 
 /**
@@ -25,6 +26,7 @@ const App = (props) => {
       <About refProp={ref2} />
       <Skills refProp={ref3} />
       <Resume refProp={ref4} />
+      <Project />
       <Contact refProp={ref5} />
     </div>
   );
