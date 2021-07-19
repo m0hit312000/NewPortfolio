@@ -1,5 +1,5 @@
 .landing_page {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   background: #16161a url("../../assests/img/wave.svg") no-repeat bottom;
   background-size: contain;
