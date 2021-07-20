@@ -21,8 +21,12 @@ const LandingPage = (props) => {
             I am a <span className="intro_role">Front End Developer</span>
           </h1>
           <div className="social_intro">
-            <img className="linkedin_pic" src={linkedin} alt="linkedin" />
-            <img className="github_pic" src={github} alt="github" />
+            <a href="https://linkedin.com/in/mohit-mishra-820b14193">
+              <img className="linkedin_pic" src={linkedin} alt="linkedin" />
+            </a>
+            <a href="https://github.com/m0hit312000">
+              <img className="github_pic" src={github} alt="github" />
+            </a>
           </div>
         </div>
         <div className="profile">

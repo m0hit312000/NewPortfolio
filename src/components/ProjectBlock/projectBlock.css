@@ -1,6 +1,7 @@
 .project_block {
-  height: 350px;
-  width: 500px;
+  position: relative;
+  height: 280px;
+  width: 320px;
   margin: 10px;
   border-radius: 20px;
   cursor: pointer;
@@ -9,6 +10,33 @@
 .project_block img {
   height: 100%;
   width: 100%;
-  /* object-fit: cover; */
   border-radius: 20px;
+}
+
+.hover_text {
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: #04aa6d;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fffffe;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  opacity: 0;
+}
+
+.hover_text p {
+  margin: 10px;
+}
+
+.hover_text:hover {
+  opacity: 0.9;
+  transition: opacity 0.4s linear;
 }

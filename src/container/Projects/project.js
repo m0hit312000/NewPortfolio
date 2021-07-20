@@ -20,13 +20,25 @@ const Project = (props) => {
       </div>
       <div className="project_content">
         <a href="https://fylolandpage.netlify.app">
-          <ProjectBlock image={fylo} />
+          <ProjectBlock
+            image={fylo}
+            title={"Fylo"}
+            description={"A Sample Responsive Landing Page"}
+          />
         </a>
         <a href="https://sochroom.sochcast.com/">
-          <ProjectBlock image={sochroom} />
+          <ProjectBlock
+            image={sochroom}
+            title={"Sochroom"}
+            description={"A Live Audio Podcasting Application"}
+          />
         </a>
         <a href="https://appreviewfilter.netlify.app">
-          <ProjectBlock image={filter} />
+          <ProjectBlock
+            image={filter}
+            title={"Review Filter"}
+            description={"A Review Filter Application"}
+          />
         </a>
       </div>
     </div>
