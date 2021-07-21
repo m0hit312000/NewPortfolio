@@ -5,6 +5,11 @@
   background-size: contain;
   display: flex;
   flex-direction: column;
+  padding-top: 70px 30px 30px 30px;
+}
+
+.intro {
+  animation: leftFloat 0.8s cubic-bezier(0, 0.07, 0, 0.92) 1;
 }
 
 .intro h1 {
@@ -36,12 +41,11 @@
   justify-self: flex-start;
   margin-top: auto;
   margin-bottom: 50px;
+  animation: popInOut 1.5s ease-in infinite;
 }
 
-.swipe h3 {
-  font-size: 24px;
-  color: #fffffe;
-  font-family: "Poppins", sans-serif;
+.profile {
+  animation: picblips 0.9s cubic-bezier(0, 0.07, 0, 0.92);
 }
 
 .profile_pic {
@@ -68,7 +72,52 @@
 }
 
 .arrow_down {
-  height: 35px;
+  height: 45px;
+  width: 45px;
   filter: invert(97%) sepia(22%) saturate(470%) hue-rotate(341deg)
     brightness(119%) contrast(101%);
+}
+
+@keyframes leftFloat {
+  0% {
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes popInOut {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.8);
+    opacity: 0.5;
+  }
+}
+
+@keyframes picblips {
+  0% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }

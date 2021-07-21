@@ -2,12 +2,13 @@
   background-color: #16161a;
   min-height: 100vh;
   width: 100%;
-  padding: 30px;
+  padding: 70px 30px 30px 30px;
 }
 
 .resume_content {
   display: grid;
-  width: 100%;
+  margin: auto;
+  width: 90%;
   grid-template-columns: 50% 50%;
   grid-template-rows: 100%;
   align-items: center;
@@ -33,25 +34,26 @@
 .education_content {
   grid-column: 1/2;
   grid-row: 1/2;
+  position: relative;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-end;
   width: 100%;
-  /* border-right: 1px solid #262a2e; */
+  padding-right: 50px;
 }
 
 .work_content {
   grid-column: 2/3;
   grid-row: 1/2;
+  position: relative;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
-  /* border-left: 1px solid #262a2e; */
+  padding-left: 50px;
 }
 
 .education_head {
-  position: relative;
   font-size: 33px;
   color: #fffffe;
   font-family: "Righteous", cursive;
@@ -59,7 +61,6 @@
 }
 
 .work_head {
-  position: relative;
   font-size: 33px;
   color: #fffffe;
   font-family: "Righteous", cursive;
@@ -81,7 +82,7 @@
 
 .resume_block {
   min-height: 200px;
-  width: 70%;
+  width: 100%;
   background-color: #262a2e;
   font-size: 20px;
   color: white;
@@ -89,12 +90,70 @@
   padding: 10px;
 }
 
+.education_block::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  background-color: #1cb698;
+  border-radius: 10px;
+  width: 50px;
+  right: -50px;
+  height: 2px;
+  top: 50%;
+  z-index: 2;
+}
+
+.education_block::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  background-color: #1cb698;
+  border-radius: 10px;
+  width: 12px;
+  height: 12px;
+  top: 50%;
+  right: -62px;
+  border: 2px solid #1cb698;
+  z-index: 2;
+  transform: translateY(-45%);
+}
+
 .education_block {
   border-right: 3px solid #2cb67d;
+  position: relative;
 }
 
 .work_block {
   border-left: 3px solid #2cb67d;
+  position: relative;
+}
+
+.work_block::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  background-color: #1cb698;
+  border-radius: 10px;
+  width: 50px;
+  left: -50px;
+  height: 2px;
+  top: 50%;
+  z-index: 2;
+}
+
+.work_block::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  background-color: #1cb698;
+  border-radius: 10px;
+  width: 12px;
+  height: 12px;
+  top: 50%;
+  left: -60px;
+  border: 2px solid #1cb698;
+  z-index: 2;
+  transform: translateY(-45%);
 }
 
 .work_block p:nth-child(3) {
@@ -114,5 +173,4 @@
   display: flex;
   width: 80%;
   justify-content: space-between;
-  /* color: #2cb67d; */
 }

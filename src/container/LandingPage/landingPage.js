@@ -2,7 +2,7 @@ import React from "react";
 import profile_pic from "../../assests/img/_storage_emulated_0_Pictures_Cartoon_Photo_cartoon1626270305172.png";
 import github from "../../assests/img/github.svg";
 import linkedin from "../../assests/img/linkedin.svg";
-import arrow_down from "../../assests/img/arrow_down.svg";
+import arrow_down from "../../assests/img/down.png";
 import "./landingPage.css";
 
 /**
@@ -34,7 +34,6 @@ const LandingPage = (props) => {
         </div>
       </div>
       <div className="swipe">
-        <h3>Swipe Up</h3>
         <img className="arrow_down" src={arrow_down} alt="arrow_down" />
       </div>
     </div>
