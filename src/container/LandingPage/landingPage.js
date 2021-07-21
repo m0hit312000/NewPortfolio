@@ -10,6 +10,8 @@ import "./landingPage.css";
  * @function LandingPage
  **/
 
+// https://mohit-mishra-portfolio.netlify.app/
+
 const LandingPage = (props) => {
   return (
     <div ref={props.refProp} className="landing_page">

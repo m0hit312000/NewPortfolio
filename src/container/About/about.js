@@ -5,6 +5,7 @@ import plane from "../../assests/img/plane.svg";
 import music from "../../assests/img/music.svg";
 import guitar from "../../assests/img/guitar.svg";
 import download from "../../assests/img/download.svg";
+import doc from "../../assests/docs/Mohit_Mishra_Resume.pdf";
 
 /**
  * @author
@@ -81,10 +82,12 @@ const About = (props) => {
         </div>
       </div>
       <div className="download_cv">
-        <div className="download_button">
-          <p>Download CV</p>
-          <img className="download" src={download} alt="download" />
-        </div>
+        <a href={doc} download>
+          <div className="download_button">
+            <p>Download CV</p>
+            <img className="download" src={download} alt="download" />
+          </div>
+        </a>
       </div>
     </div>
   );
