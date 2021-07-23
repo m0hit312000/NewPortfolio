@@ -2,6 +2,7 @@ import React from "react";
 import "./project.css";
 import filter from "../../assests/img/AppReviewFilter.png";
 import sochroom from "../../assests/img/sochroom.png";
+import Confusion from "../../assests/img/Confusion.png";
 import fylo from "../../assests/img/fylo.png";
 import ProjectBlock from "../../components/ProjectBlock/projectBlock";
 
@@ -31,6 +32,13 @@ const Project = (props) => {
             image={sochroom}
             title={"Sochroom"}
             description={"A Live Audio Podcasting Application"}
+          />
+        </a>
+        <a href="https://restaurantconfusiondemo.netlify.app">
+          <ProjectBlock
+            image={Confusion}
+            title={"conFusion"}
+            description={"A Restaurant Application"}
           />
         </a>
         <a href="https://appreviewfilter.netlify.app">
