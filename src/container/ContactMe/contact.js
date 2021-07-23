@@ -38,6 +38,7 @@ const Contact = (props) => {
     ref_3.current.value = "";
     ref_4.current.value = "";
     ref_5.current.value = "";
+    alert("Currently this site is under development");
   };
 
   return (
