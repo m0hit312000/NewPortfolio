@@ -10,5 +10,11 @@
   margin-top: 80px;
   align-items: center;
   justify-content: center;
+  min-width: 1200px;
   flex-wrap: wrap;
+}
+
+.project_content a {
+  width: 33.33%;
+  padding: 20px;
 }

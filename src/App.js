@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import About from "./container/About/about";
 import Contact from "./container/ContactMe/contact";
+import Footer from "./container/Footer/Footer";
 import Header from "./container/Header/Header";
 import LandingPage from "./container/LandingPage/landingPage";
 import Resume from "./container/MyResume/resume";
@@ -28,6 +29,7 @@ const App = (props) => {
       <Resume refProp={ref4} />
       <Project />
       <Contact refProp={ref5} />
+      <Footer refProp={ref1} />
     </div>
   );
 };
