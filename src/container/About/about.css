@@ -172,3 +172,95 @@
   filter: invert(97%) sepia(22%) saturate(470%) hue-rotate(341deg)
     brightness(119%) contrast(101%);
 }
+
+@media screen and (min-width: 700px) and (max-width: 1200px) {
+  .about_me_content {
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .personal_detail {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-self: center;
+  }
+
+  .about_me_body {
+    padding: 50px;
+  }
+
+  .personal_detail_list {
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 100%;
+  }
+
+  .interest {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    align-self: center;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  .about_me {
+    padding: 70px 10px 10px 10px;
+  }
+
+  .sec_heading h1 {
+    font-size: 35px;
+  }
+
+  .about_me_content {
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .personal_detail {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-self: center;
+  }
+
+  .personal_detail_list {
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 100%;
+  }
+
+  .about_me_body {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .about_me_content_head {
+    font-size: 26px;
+  }
+
+  .interest {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    align-self: center;
+  }
+
+  .block {
+    height: 80px;
+    width: 80px;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+
+  .interest_icons {
+    height: 25px;
+    width: 25px;
+  }
+
+  .guitar img {
+    position: relative;
+    top: -4px;
+    height: 35px;
+    width: 35px;
+  }
+
+  .guitar h3 {
+    margin: 0;
+  }
+}

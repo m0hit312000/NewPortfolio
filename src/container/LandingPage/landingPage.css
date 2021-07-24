@@ -1,7 +1,7 @@
 .landing_page {
   min-height: 100vh;
   width: 100%;
-  background: #16161a url("../../assests/img/wave.svg") no-repeat bottom;
+  background: #242629 url("../../assests/img/wave (1).svg") no-repeat bottom;
   background-size: contain;
   display: flex;
   flex-direction: column;
@@ -119,5 +119,60 @@
   100% {
     transform: scale(1);
     opacity: 1;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  .intro_area {
+    flex-wrap: wrap;
+    padding: 15px;
+    margin-top: 70px;
+  }
+
+  .intro h1 {
+    font-size: 35px;
+  }
+
+  .github_pic {
+    height: 35px;
+    width: 35px;
+  }
+
+  .linkedin_pic {
+    height: 35px;
+    width: 35px;
+  }
+
+  .profile_pic {
+    height: 350px;
+    width: 350px;
+  }
+
+  .swipe {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1200px) {
+  .intro_area {
+    flex-wrap: wrap;
+  }
+
+  .intro h1 {
+    font-size: 40px;
+  }
+
+  .github_pic {
+    height: 40px;
+    width: 40px;
+  }
+
+  .linkedin_pic {
+    height: 40px;
+    width: 40px;
+  }
+
+  .profile_pic {
+    height: 400px;
+    width: 400px;
   }
 }

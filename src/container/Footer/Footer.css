@@ -16,8 +16,8 @@
 }
 
 .go_up button {
-  height: 40px;
-  width: 40px;
+  height: 45px;
+  width: 45px;
   border-radius: 50%;
   border: none;
   background-color: #2cb67d;
@@ -25,6 +25,7 @@
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   cursor: pointer;
+  letter-spacing: 2px;
 }
 
 .social_share {

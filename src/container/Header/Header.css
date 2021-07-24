@@ -23,3 +23,14 @@
   padding: 10px 20px;
   cursor: pointer;
 }
+
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  .nav_list {
+    font-size: 15px;
+  }
+
+  .nav_list_item {
+    padding: 10px 7px;
+    text-align: center;
+  }
+}

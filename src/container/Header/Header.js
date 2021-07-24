@@ -23,6 +23,12 @@ const Header = (props) => {
           About Me
         </li>
         <li
+          onClick={() => props.ref3.current.scrollIntoView()}
+          className="nav_list_item"
+        >
+          Skills
+        </li>
+        <li
           onClick={() => props.ref4.current.scrollIntoView()}
           className="nav_list_item"
         >
@@ -33,12 +39,6 @@ const Header = (props) => {
           className="nav_list_item"
         >
           Contact
-        </li>
-        <li
-          onClick={() => props.ref3.current.scrollIntoView()}
-          className="nav_list_item"
-        >
-          Skills
         </li>
       </ul>
     </div>

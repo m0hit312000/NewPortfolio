@@ -14,8 +14,6 @@
   align-items: center;
   justify-items: center;
   margin-top: 100px;
-  height: 450px;
-  /* padding: 50px; */
 }
 
 .education {
@@ -88,6 +86,10 @@
   color: white;
   font-family: "Poppins", sans-serif;
   padding: 10px;
+}
+
+.resume_block p {
+  margin: 3px;
 }
 
 .education_block::after {
@@ -173,4 +175,90 @@
   display: flex;
   width: 80%;
   justify-content: space-between;
+}
+
+@media screen and (min-width: 700px) and (max-width: 1200px) {
+  .resume_content {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 100%;
+  }
+
+  .education {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 0;
+  }
+
+  .work {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  .resume {
+    padding: 70px 10px 10px 10px;
+  }
+
+  .resume_content {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 100%;
+    width: 95%;
+  }
+
+  .education {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 0;
+  }
+
+  .education_block::after {
+    width: 25px;
+    right: -25px;
+  }
+
+  .education_block::before {
+    right: -37px;
+  }
+
+  .education_content {
+    padding-right: 25px;
+  }
+
+  .education_head p {
+    font-size: 26px;
+  }
+
+  .work {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin: 0;
+  }
+
+  .work_head p {
+    font-size: 26px;
+  }
+
+  .resume_block {
+    font-size: 16px;
+  }
+
+  .work_content {
+    padding-left: 25px;
+  }
+
+  .work_block::after {
+    width: 25px;
+    left: -25px;
+  }
+
+  .work_block::before {
+    left: -37px;
+  }
+
+  .work_block p:nth-child(3) {
+    font-size: 14px;
+    margin-top: 10px;
+  }
 }
