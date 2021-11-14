@@ -50,7 +50,7 @@ const About = (props) => {
                 <p>03-01-2001</p>
                 <p>+91 8085574989</p>
                 <p>m0hit.mishra0301@gmail.com</p>
-                <p>wwww.example.com</p>
+                <p>https://mohit-mishra-portfolio.netlify.app/</p>
                 <p>Satna (M.P.), India</p>
                 <p>Software Developer Intern</p>
               </div>
